@@ -36,3 +36,14 @@ html ,body {
     animation: loading 0.8s ease infinite;
   }
 }
+
+.scroll-reveal {
+  will-change: transform, opacity;
+  /* Improve performance by hinting to the browser what will change */
+}
+
+/* Optional: Add these if you want to ensure the animation doesn't affect layout */
+.scroll-reveal {
+  display: inline-block; /* or flex, depending on your layout needs */
+  width: 100%;
+}

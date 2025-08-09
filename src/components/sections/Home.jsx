@@ -1,5 +1,9 @@
+import ScrollReveal from '../ScrollReveal';
+
 export const Home = () => {
     return <section id="home" className="min-h-screen flex items-center justify-center relative">
+                <ScrollReveal direction="up" delay={0.1}>
+
                     <div className="text-center z-10 px-4">
                         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
                             Hi, my name is Nguyễn Huy
@@ -25,5 +29,6 @@ export const Home = () => {
                             </a>
                         </div>
                     </div>
+                </ScrollReveal>
     </section>
 }
