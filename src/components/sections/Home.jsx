@@ -10,11 +10,9 @@ export const Home = () => {
                         </h1>
 
                         <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                            Sinh viên CNTT với kinh nghiệm thực tập Frontend và từng xây dựng nhiều dự
-                            án cá nhân. Thành thạo tiếng Anh, có khả năng làm việc nhóm, giao tiếp tốt và
-                            tư duy logic. Chủ động, kỹ lưỡng, yêu thích học hỏi và cập nhật công nghệ.
-                            Mong muốn phát triển thành lập trình viên chuyên nghiệp tại môi trường công
-                            nghệ cao có cơ hội sử dụng tiếng Anh
+                            IT student with Frontend internship experience and has built many personal projects. Has 1 year of internship working with Reactjs webapp project. 
+                            Fluent in English, able to work in a team, good communication and logical thinking. Desire to develop into a professional programmer in a high-tech environment with the opportunity to use English. 
+                            Has done some basic DB types such as Mysql, PostgreSQL, nodejs
                         </p>
 
                         <div className="flex justify-center space-x-4">

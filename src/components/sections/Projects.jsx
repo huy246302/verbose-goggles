@@ -12,14 +12,15 @@ export const Projects = () => {
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                             <h3 className="text-xl font-bold mb-2"> 
-                            Weather App
+                            Sport new website
                             </h3>
                             <p className="text-gray-400 mb-4">
                                 {" "}
-                                Weather App description
+                                A sports news web app where users can read the latest articles about various sports and share their opinions through a comment section, 
+                                creating a space for fans to stay informed and engage in discussions.
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["React","Tailwind CSS","OpenWeatherMap API","Axios"].map((tech,key) => (
+                                {["Javascript","CSS","PHP","HTML"].map((tech,key) => (
                                     <span 
                                         key={key}
                                         className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -32,7 +33,7 @@ export const Projects = () => {
 
                             <div className="flex justify-between items-center">
                                 <a 
-                                href="#" 
+                                href="https://github.com/Songtho123/do-an-" 
                                 className="text-blue-400 hover:text-blue-300 transition-colors my-4">
                                     {" "}
                                     View project {" "}
@@ -42,14 +43,15 @@ export const Projects = () => {
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                             <h3 className="text-xl font-bold mb-2"> 
-                            Project #2
+                            Personal portfolio
                             </h3>
                             <p className="text-gray-400 mb-4">
                                 {" "}
-                                Weather App description
+                                A personal portfolio website that highlights my skills, showcases selected projects with live demos and source code, 
+                                and provides an easy way for potential employers or clients to learn about me and get in touch.
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["React","Tailwind CSS","OpenWeatherMap API","Axios"].map((tech,key) => (
+                                {["React","Tailwind CSS","HTML","Vite"].map((tech,key) => (
                                     <span 
                                         key={key}
                                         className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -62,7 +64,7 @@ export const Projects = () => {
 
                             <div className="flex justify-between items-center">
                                 <a 
-                                href="#" 
+                                href="https://github.com/huy246302/nguyen-huy-porfolio" 
                                 className="text-blue-400 hover:text-blue-300 transition-colors my-4">
                                     {" "}
                                     View project {" "}

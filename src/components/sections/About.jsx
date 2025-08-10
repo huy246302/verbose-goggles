@@ -1,9 +1,9 @@
 import ScrollReveal from '../ScrollReveal';
 
 export const About = () => {
-    const frontendSkills = ["React","Vue","TypeSript","English"];
+    const frontendSkills = ["HTML","CSS","Tailwindcss","Reactjs","Nextjs","TypeSript","English"];
 
-    const backendSkills = ["Node.js","SQL","MongoDB","MySQL"];
+    const backendSkills = ["Node.js","SQL","PostgreSQL","MySQL"];
 
     return <section 
     id="about" 
@@ -17,7 +17,7 @@ export const About = () => {
 
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                     <p className="text-gray-300 mb-6">
-                        Something something
+                        Skills
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -69,11 +69,11 @@ export const About = () => {
                                 <strong>
                                     B.S. in Computer Science
                                 </strong>
-                                - University(2019-2025)
+                                Van Hien University(2019-2025)
                             </li>
-                            <li>
+                            {/* <li>
                                 Relevance Coursework:Data sth,..
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
@@ -85,14 +85,14 @@ export const About = () => {
                                 <h4>
                                     Frontend Intern at DGV Company
                                 </h4>
-                                <p> Develop and maintained microservice</p>
+                                <p> Developed a WebApp dashboard using React.js, Next.js, and Tailwind CSS in a Scrum workflow; created responsive, SEO-friendly news pages; used TypeScript, Git, Jira, and gained familiarity with Axios, Postman, Figma, and performance optimization.</p>
                             </div>
 
                             <div>
                                 <h4>
                                     Developer Intern at Katsura Company
                                 </h4>
-                                <p> Report at backend app</p>
+                                <p> Analyzed and documented a C codebase in Visual Studio, creating reports and supporting the team in improving code clarity.</p>
                             </div>
                         </div>
                     </div>
