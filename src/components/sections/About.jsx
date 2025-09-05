@@ -1,7 +1,7 @@
 import ScrollReveal from '../ScrollReveal';
 
 export const About = () => {
-    const frontendSkills = ["HTML","CSS","Tailwindcss","Reactjs","Nextjs","TypeSript","English"];
+    const frontendSkills = ["HTML","CSS","Tailwindcss","Reactjs","Nextjs","TypeSript"];
 
     const backendSkills = ["Node.js","SQL","PostgreSQL","MySQL"];
 
@@ -16,7 +16,7 @@ export const About = () => {
                 </h2>
 
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-                    <p className="text-gray-300 mb-6">
+                    <p className="text-2xl font-bold text-gray-300 mb-6 text-center">
                         Skills
                     </p>
 
